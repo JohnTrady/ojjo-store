@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240630151939">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header  ">
+			<div class="header__container">
+
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="catalog.html" class="menu__link  ">Каталог</a>
+							</li>
+							<li class="menu__item">
+								<a href="contacts.html" class="menu__link">Контакты</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Вакансии</a>
+							</li>
+
+						</ul>
+
+					</nav>
+					<ul hidden class="menu__socials socilas-menu">
+						<li class="socilas-menu__item">
+							<a href="#" class="socilas-menu__link">
+								<svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-you-tube"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="socilas-menu__item">
+							<a href="#" class="socilas-menu__link">
+								<svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-vk"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="socilas-menu__item">
+							<a href="#" class="socilas-menu__link">
+								<svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="socilas-menu__item">
+							<a href="#" class="socilas-menu__link">
+								<svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-tg"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="socilas-menu__item">
+							<a href="#" class="socilas-menu__link">
+								<svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-e"></use>
+								</svg>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+				<a href="home.html" class="header__logo">
+					<img src="img/logo/logo.svg" alt="Logo">
+				</a>
+				<div class="header__actions actions-header">
+					<div class="actions-header__seacrh search-header">
+						<button type="button" class="search-header__button  search-header__button-js "><span><svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-search"></use>
+								</svg></span>Поиск</button>
+
+					</div>
+					<a href="#" data-da=".menu__body,991.98" class="actions-header__registration">Вход/Регистрация</a>
+					<div data-da=".menu__body,479.98" class="actions-header__actions">
+						<button type="button" class="actions-header__user"><svg class="svg-item">
+								<use xlink:href="img/icons/icons.svg#svg-user"></use>
+							</svg> </button>
+						<button type="button" class="actions-header__like"><svg class="svg-item">
+								<use xlink:href="img/icons/icons.svg#svg-like"></use>
+							</svg> </button>
+					</div>
+
+
+				</div>
+				<button type="button" class="header__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page page-catalog">
+			<div class="page__breadcrumbs breadcrumbs">
+				<div class="breadcrumbs__container">
+					<nav class="breadcrumbs__menu">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="home.html" class="breadcrumbs__link">Главная</a>
+							</li>
+
+							<li class="breadcrumbs__item">
+								<span class="breadcrumbs__current">Каталог</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="page__catalog catalog">
+				<div class="catalog__container">
+					<div class="catalog__filter filter-catalog">
+						<div class="filter-catalog__body">
+
+							<form action="#" hidden data-spollers class="filter-catalog__items">
+								<div class="filter-catalog__item filter-catalog-item">
+									<button data-spoller type="button" class="filter-catalog-item__button">Бренд <span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body">
+
+
+										<ul class="filter-catalog-item__list   filter-catalog-item_js">
+
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="brands" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="brands" class="filter-catalog-item__label checkbox__label "><span>Versacci</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="brands" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="brands" class="filter-catalog-item__label checkbox__label "><span>Jewelry for you familya</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="brands" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="brands" class="filter-catalog-item__label checkbox__label "><span>VIP ghoret</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="brands" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="brands" class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+
+
+
+										</ul>
+									</div>
+
+								</div>
+								<div class="filter-catalog__item filter-catalog-item ">
+									<button data-spoller type="button" class="filter-catalog-item__button">Цена<span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body ">
+										<div class="filter-catalog-item__price filter-price filter-catalog-item_js">
+											<div class="filter-price__item">
+												<div>От</div>
+												<input data-input-number="min" maxlength="10" type="text" value="10" autocomplete="off" name="form[]" class="filter-item__input">
+												<span>тыс. руб.</span>
+											</div>
+											<div class="filter-price__item">
+												<div>До</div>
+												<input data-input-number="max" maxlength="10" type="text" value="1000" autocomplete="off" name="form[]" class="filter-item__input">
+												<span>тыс. руб.</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="filter-catalog__item filter-catalog-item">
+									<button data-spoller type="button" class="filter-catalog-item__button">Для кого<span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body">
+										<ul class="filter-catalog-item__list filter-catalog-item_js">
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Мужу</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Жене</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Партнеру</span></label>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+								<div class="filter-catalog__item filter-catalog-item">
+									<button data-spoller type="button" class="filter-catalog-item__button">Коллекция<span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body">
+										<ul class="filter-catalog-item__list filter-catalog-item_js">
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Подвески</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Кольца</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Часы</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Браслеты</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input data-catalog-input="others" class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label data-catalog-label="others" class="filter-catalog-item__label checkbox__label "><span>Запонки</span></label>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="filter-catalog__item filter-catalog-item">
+									<button data-spoller type="button" class="filter-catalog-item__button">Сезон<span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body">
+										<ul class="filter-catalog-item__list filter-catalog-item_js">
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+								<div class="filter-catalog__item filter-catalog-item">
+									<button data-spoller type="button" class="filter-catalog-item__button">Событие<span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+											</svg></span></button>
+									<div class="filter-catalog-item__body">
+										<ul class="filter-catalog-item__list filter-catalog-item_js">
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+											<li class="filter-catalog-item__item checkbox ">
+												<input class="filter-catalog-item__checkbox  checkbox__input" name="form[]" type="checkbox">
+												<label class="filter-catalog-item__label checkbox__label "><span>Dolce & Gabanna</span></label>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+							</form>
+
+
+						</div>
+
+
+					</div>
+					<div class="catalog__body">
+						<div class="catalog__products">
+							<!-- <article class="catalog__product product-item">
+							   <a href="#" class="product-item__image product-item__image-ibg">
+								 <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+							   </a>
+							   <div class="product-item__body">
+								    <a href="#" class="product-item__item">Подвеска</a>
+									<a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									<div class="product-item__price">175 000 ₽</div>
+							   </div>
+
+							</article>
+							<article class="catalog__product product-item">
+								<a href="#" class="product-item__image product-item__image-ibg">
+								  <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+								</a>
+								<div class="product-item__body">
+									 <a href="#" class="product-item__item">Подвеска</a>
+									 <a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									 <div class="product-item__price">175 000 ₽</div>
+								</div>
+ 
+							 </article>
+							 <article class="catalog__product product-item">
+								<a href="#" class="product-item__image product-item__image-ibg">
+								  <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+								</a>
+								<div class="product-item__body">
+									 <a href="#" class="product-item__item">Подвеска</a>
+									 <a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									 <div class="product-item__price">175 000 ₽</div>
+								</div>
+ 
+							 </article>
+							 <article class="catalog__product product-item">
+								<a href="#" class="product-item__image product-item__image-ibg">
+								  <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+								</a>
+								<div class="product-item__body">
+									 <a href="#" class="product-item__item">Подвеска</a>
+									 <a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									 <div class="product-item__price">175 000 ₽</div>
+								</div>
+ 
+							 </article>
+							 <article class="catalog__product product-item">
+								<a href="#" class="product-item__image product-item__image-ibg">
+								  <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+								</a>
+								<div class="product-item__body">
+									 <a href="#" class="product-item__item">Подвеска</a>
+									 <a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									 <div class="product-item__price">175 000 ₽</div>
+								</div>
+ 
+							 </article>
+							 <article class="catalog__product product-item">
+								<a href="#" class="product-item__image product-item__image-ibg">
+								  <picture><source srcset="img/product-card/product-img.webp" type="image/webp"><img src="img/product-card/product-img.jpg" alt="Подвеска"></picture>
+								</a>
+								<div class="product-item__body">
+									 <a href="#" class="product-item__item">Подвеска</a>
+									 <a href="#" class="product-item__brand">Dolce & Gabanna</a>
+									 <div class="product-item__price">175 000 ₽</div>
+								</div>
+ 
+							 </article> -->
+						</div>
+						<button type="button" class="catalog__button-more button button--grey">покажите еще</button>
+
+					</div>
+				</div>
+
+			</div>
+			<section class="page__description description">
+				<div class="description__container">
+					<div class="description__body">
+						<div class="description__content">
+							<!-- <h3 class="description__title">Полное описание товара</h3> -->
+							<div data-showmore class="description__block">
+								<div data-showmore-content="220" class="description__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed</p>
+								</div>
+								<button hidden data-showmore-button type="button" class="description__button block__more block-more">
+									<span class="">читать полностью</span>
+									<span>Скрыть</span>
+								</button>
+							</div>
+
+						</div>
+						<div class="description__advantages advantages">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="img/advantages/advatages-icon01.svg" alt="Delivery">
+								</div>
+								<h4 class="advantages__title">Бесплатная
+									доставка</h4>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="img/advantages/advatages-icon02.svg" alt="Delivery">
+								</div>
+								<h4 class="advantages__title">Индивидуальный дизайн</h4>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="img/advantages/advatages-icon03.svg" alt="Delivery">
+								</div>
+								<h4 class="advantages__title">Бесплатная примерка</h4>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="img/advantages/advatages-icon04.svg" alt="Delivery">
+								</div>
+								<h4 class="advantages__title">Личный подход</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+
+
+
+
+			<div class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__title-block title-block title-block--white">
+						<h3 class="title-block__subtitle">Полезные советы и персональный предложения</h3>
+						<h2 class="title-block__title">Эксклюзивная рассылка</h2>
+					</div>
+					<div class="subscribe__body">
+						<div class="subscribe__advantages advatages-subscribe">
+							<ul class="advatages-subscribe__list">
+								<li class="advatages-subscribe__item">
+									<span>
+										<svg class="svg-item">
+											<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+										</svg>
+									</span>
+									<p>Личный менеджер</p>
+
+								</li>
+								<li class="advatages-subscribe__item">
+									<span>
+										<svg class="svg-item">
+											<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+										</svg>
+									</span>
+									<p>Доставка и оформление</p>
+
+								</li>
+								<li class="advatages-subscribe__item">
+									<span>
+										<svg class="svg-item">
+											<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+										</svg>
+									</span>
+									<p>Индивидуальный дизайн</p>
+
+								</li>
+							</ul>
+						</div>
+						<form action="#" class="subscribe__form form-subscribe">
+							<div class="form-subscribe__body">
+								<div class="form-subscribe__input">
+									<input tabindex="2" type="text" autocomplete="off" name="form[]" placeholder="Ваше Имя" data-required data-error="Заполните поле">
+								</div>
+								<div class="form-subscribe__input">
+									<input tabindex="3" type="text" autocomplete="off" name="form[]" placeholder="Ваш e-mail" data-required="email" data-error="Неправельный E-mail">
+								</div>
+
+								<button type="submit" class="form-subscribe__button button button--grey">отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div data-spollers="767.98" class="footer__body">
+					<div class="footer__column footer-column">
+						<button data-spoller type="button" class="footer-column__title">Полезные ссылки<span><svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+								</svg></span></button>
+						<div class="footer-column__body">
+							<ul class="footer-column__list">
+								<li class="footer-column__list-item">
+									<a href="#" class="footer-column__link">Доставка</a>
+								</li>
+								<li class="footer-column__list-item">
+									<a href="#" class="footer-column__link">Оплата</a>
+								</li>
+								<li class="footer-column__list-item">
+									<a href="#" class="footer-column__link">Акции</a>
+								</li>
+								<li class="footer-column__list-item">
+									<a href="#" class="footer-column__link">Политика конфиденциальности</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column footer-column">
+						<button data-spoller type="button" class="footer-column__title">оплата<span><svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+								</svg></span></button>
+						<div class="footer-column__body">
+							<p class="footer-column__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+							</p>
+							<div class="footer-column__payment">
+								<a href="#">
+									<picture><source srcset="img/footer/visa.webp" type="image/webp"><img src="img/footer/visa.png" alt="Visa"></picture>
+								</a>
+								<a href="#">
+									<picture><source srcset="img/footer/master-card.webp" type="image/webp"><img src="img/footer/master-card.png" alt="MasterCard"></picture>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column footer-column">
+						<button data-spoller type="button" class="footer-column__title">контакты<span><svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+								</svg></span></button>
+						<div class="footer-column__body">
+							<ul class="footer-column__list">
+								<li class="footer-column__list-item">
+									<a href="tel:88122345655" class="footer-column__link"><span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-phone"></use>
+											</svg></span>8 (812) 234-56-55</a>
+								</li>
+								<li class="footer-column__list-item">
+									<a href="tel:88122345655" class="footer-column__link"><span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-phone"></use>
+											</svg></span>8 (812) 234-56-55</a>
+								</li>
+								<li class="footer-column__list-item">
+									<a href="mailto:ojjo@ojjo@mail.com" class="footer-column__link"><span><svg class="svg-item">
+												<use xlink:href="img/icons/icons.svg#svg-mail"></use>
+											</svg></span>ojjo@ojjo@mail.com</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column footer-column">
+						<button data-spoller type="button" class="footer-column__title">социальные сети<span><svg class="svg-item">
+									<use xlink:href="img/icons/icons.svg#svg-spoiler-arrow"></use>
+								</svg></span></button>
+						<div class="footer-column__body">
+							<p class="footer-column__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+							</p>
+							<div class="footer-column__socials socilas">
+								<a href="#" class="socilas__item">
+									<svg class="svg-item">
+										<use xlink:href="img/icons/icons.svg#svg-you-tube"></use>
+									</svg>
+								</a>
+								<a href="#" class="socilas__item">
+									<svg class="svg-item">
+										<use xlink:href="img/icons/icons.svg#svg-vk"></use>
+									</svg>
+								</a>
+								<a href="#" class="socilas__item">
+									<svg class="svg-item">
+										<use xlink:href="img/icons/icons.svg#svg-facebook"></use>
+									</svg>
+								</a>
+								<a href="#" class="socilas__item">
+									<svg class="svg-item">
+										<use xlink:href="img/icons/icons.svg#svg-tg"></use>
+									</svg>
+								</a>
+								<a href="#" class="socilas__item">
+									<svg class="svg-item">
+										<use xlink:href="img/icons/icons.svg#svg-e"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p class="footer__copy">(c) 2020 OJJO jewelry</p>
+					<a href="#" class="footer__link">Договор публичной офферты</a>
+					<a href="#" class="footer__link">Контрагентам</a>
+				</div>
+			</div>
+
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<form action="#" class="search-form">
+		<div class="search-form__container">
+			<div class="search-form__body">
+				<input tabindex="1" type="text" autocomplete="off" name="form[]" placeholder="Поиск" class="search-form__input">
+				<button type="submit" class="search-form__button"><svg class="svg-item">
+						<use xlink:href="img/icons/icons.svg#svg-search"></use>
+					</svg></button>
+			</div>
+
+		</div>
+
+	</form>
+	<script src="js/app.min.js?_v=20240630151939"></script>
+</body>
+
+</html>

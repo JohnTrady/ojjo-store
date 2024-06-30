@@ -1,0 +1,152 @@
+{
+    "items" : [
+         {
+            "id" : "1",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "2",
+            "image": "img/categories/image-category04.jpg",
+            "item": "Кольцо",
+            "brand":"Versacci",
+            "price": "100000",
+             "url" : "product-card.html",
+             "categories" : ["Кольца","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit."
+             
+            
+         },
+         {
+            "id" : "3",
+            "image": "img/categories/image-category05.jpg",
+            "item": "Cерьги",
+            "brand":"Jewelry for you familya",
+            "price": "150000",
+             "url" : "product-card.html",
+             "categories" : ["Cерьги","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam."
+             
+            
+         },
+         {
+            "id" : "4",
+            "image": "img/categories/image-category06.jpg",
+            "item": "Браслет",
+            "brand":"VIP ghoret",
+            "price": "200000",
+             "url" : "product-card.html",
+             "categories" : ["Браслеты","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+            
+         },
+         {
+            "id" : "5",
+            "image": "img/categories/image-category06.jpg",
+            "item": "Часы",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "80000",
+             "url" : "product-card.html",
+             "categories" : ["Часы","Мужу"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis."
+             
+            
+         },
+         {
+            "id" : "6",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Часы",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Часы","Мужу"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "7",
+            "image": "img/categories/image-category06.jpg",
+            "item": "Часы",
+            "brand":"Versacci",
+            "price": "75000",
+             "url" : "product-card.html",
+             "categories" : ["Часы","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus."
+             
+             
+            
+         },
+         {
+            "id" : "8",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "9",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "10",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "11",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         },
+         {
+            "id" : "12",
+            "image": "img/product-card/product-img.jpg",
+            "item": "Подвеска",
+            "brand":"Dolce &amp; Gabanna",
+            "price": "175000",
+             "url" : "product-card.html",
+             "categories" : ["Подвески","Жене"],
+             "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa.Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est,fames sit luctus lacus."
+             
+            
+         }
+
+
+     
+       
+    ]
+}
